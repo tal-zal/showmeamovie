@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1> Show Me A Movie </h1>
+        <img src='logoReel.png' className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Enter your desired movie criteria, and SMAM will choose a movie for you to watch!
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Generate Movie
         </a>
       </header>
     </div>
